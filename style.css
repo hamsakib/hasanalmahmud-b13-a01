@@ -35,3 +35,77 @@ nav button{
     border: 0;
     border-radius: 4px;
 }
+/* hero container */
+.hero{
+    background-image: url(./assets/hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 179.5px 120px 179.5px 120px; 
+    color: white;
+    text-align: center;
+}
+/* Early Access Banner */
+.small-banner{
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    /* fix padding alignment to circle */
+    padding: 8px 12px;
+    background-color: white ;
+    color: #30B868;
+    border-radius: 999px;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* Hero Title */
+.hero-title span{
+    display: block;
+    font-size: 72px;
+    font-weight: bold;
+}
+/* Hero Title line 2 */
+#hero-title-line2{
+    color: #30B868;
+}
+/* hero paragraph */
+.hero-p span{
+    display: block;
+    margin: 16px;
+}
+/* Hero Button */
+.hero-btn{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    margin: 32px;
+}
+/* Green Button */
+#hero-btn1{
+    display: flex;
+    height: 52px;
+    background-color: #30B868;
+    color: white;
+    font-weight: 600;
+    align-items: center;
+    justify-content: space-between;
+    border: 0 ;
+    border-radius: 4px;
+    gap: 10px;
+    padding: 10px 16px;
+}
+/* Transparent Button */
+#hero-btn2{
+    display: flex;
+    height: 52px;
+    background: transparent;
+    color: white;
+    font-weight: 600;
+    align-items: center;
+    justify-content: space-between;
+     border: 1px solid #ffffff;
+    border-radius: 4px;
+    gap: 10px;
+    padding: 10px 16px;
+}
