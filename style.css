@@ -34,6 +34,10 @@ nav button{
     height: 44px;
     border: 0;
     border-radius: 4px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.342);
+}
+nav button:hover{
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.774);
 }
 /* hero container */
 .hero{
@@ -150,3 +154,75 @@ nav button{
     border-radius: 999px;
     padding: 13.6px;
 }
+
+/* section brain */
+.brain{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    justify-content: center;
+    padding: 120px;
+}
+
+#green-p{
+    color: #30B868;
+}
+
+.brain-content h1{
+    font-size: 48px;
+    margin-top: 16px;
+}
+#gray-p{
+    color: #627382;
+    margin-top: 16px;
+}
+
+.brain-points{
+    margin-top: 40px;
+}
+.brain-points p{
+    margin-top: 16px;
+}
+.brain-points img{
+    vertical-align: middle;
+}
+
+/* section early access */
+.eas{
+    text-align: center;
+    margin: 120px;
+}
+
+.eas h1{
+    font-size: 40px;
+}
+
+.eas p{
+    font-size: 16px;
+    color: #627382;
+    margin-top: 16px;
+}
+
+.eas button{
+    display: flex;
+    background-color: #30B868;
+    border: 0;
+    color: white;
+    padding: 16px;
+    gap: 10px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 4px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.342);
+}
+.eas button:hover {
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.774);
+}
+#eas-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+}
+
