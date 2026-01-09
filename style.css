@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "inter";
+}
+/* nav bar */
+nav{
+    padding: 16px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+}
+/* nav menu list */
+#menu{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    justify-content: space-between;
+}
+/* nav menu list anchor */
+#menu a{
+    text-decoration: none;
+    color: black;
+    font-family: "inter";
+    font-weight: 500;
+}
+/* nav button */
+nav button{
+    background-color: #30B868;
+    color: white;
+    font-weight: 500;
+    width: 164px;
+    height: 44px;
+    border: 0;
+    border-radius: 4px;
+}
