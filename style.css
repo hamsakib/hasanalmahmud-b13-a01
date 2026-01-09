@@ -25,6 +25,18 @@ nav{
     font-family: "inter";
     font-weight: 500;
 }
+#menu li a {
+    text-decoration: none;
+    color: black;
+    padding: 12px 24px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+#menu li a:hover {
+    background-color: #30B868;
+    color: white;
+}
 /* nav button */
 nav button{
     background-color: #30B868;
@@ -35,6 +47,7 @@ nav button{
     border: 0;
     border-radius: 4px;
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.342);
+    cursor: pointer;
 }
 nav button:hover{
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.774);
@@ -113,6 +126,22 @@ nav button:hover{
     gap: 10px;
     padding: 10px 16px;
 }
+/* hover */
+#hero-btn1,
+#hero-btn2 {
+    cursor: pointer;
+    transition: all 0.2s ease;
+    transform: translateY(-2px);
+}
+#hero-btn1:hover {
+    background-color: #249a55;
+}
+#hero-btn2:hover {
+    background-color: rgb(22, 22, 22);
+    color: #30B868;
+    border-color: white;
+}
+
 
 /* Section Note */
 .note{
@@ -215,6 +244,7 @@ nav button:hover{
     justify-content: center;
     border-radius: 4px;
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.342);
+    cursor: pointer;
 }
 .eas button:hover {
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.774);
@@ -257,4 +287,7 @@ footer hr {
     gap: 16px;
     align-items: center;
     margin-top: 16px;
+}
+.social-icons img {
+    cursor: pointer;
 }
